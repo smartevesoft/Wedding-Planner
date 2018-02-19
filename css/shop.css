@@ -1,3 +1,4 @@
+add-to-cart/*
 /*
 Template:  Webster - Responsive Multi-purpose HTML5 Template
 Author: potenzaglobalsolutions.com
@@ -12,11 +13,12 @@ NOTE: This file contains the styling for the Shop Pages. You can edit/add anythi
 ********************************/
 .product { text-align: center; position: relative;  }
 .product .product-title a { font-size: 16px; text-transform: uppercase; font-weight: 600; margin: 20px 0px 10px; display: block; }
-
+.product .product-title2 a { font-size: 16px; text-transform: uppercase; font-weight: 600; margin: 0px 0px 0px; display: block; }
 .product .product-title a:hover { color: #353535; }
 .product .product-price del { background: transparent; color: #323232; font-size: 13px; }
 .product .product-price ins { text-decoration: none; color: #84ba3f; font-size: 16px; font-weight: bold; }
 .product .product-rating { margin-bottom: 10px; }
+.product .product-rating2 { margin-bottom: 0px; }
 .product .product-rating i { color: #353535; }
 .product .product-image { position: relative; }
 .product .product-image .product-overlay { opacity: 0; text-align: center; left: 0; position: absolute; right: 0; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); -o-transform: translateY(-50%); -ms-transform: translateY(-50%); -moz-transform: translateY(-50%); z-index: 99; margin: 0 auto; transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
@@ -38,6 +40,7 @@ NOTE: This file contains the styling for the Shop Pages. You can edit/add anythi
 .shop-single .product-detail .input-group-btn button:hover { color: #84ba3f; }
 .shop-single .product-detail .input-group { width: 90px; float: left; margin-right: 20px; }
 .shop-single .product-detail .product-detail.add-to-cart .button { display: inline-block; font-size: 12px; }
+.add-to-cart{padding-bottom:20px;}
 .shop-single .product-detail .input-group-btn:first-child>.btn {  border-top-left-radius: 30px; border-bottom-left-radius: 30px; }
 .shop-single .product-detail .input-group-btn:last-child>.btn {  border-top-right-radius: 30px; border-bottom-right-radius: 30px; }
 .shop-single .product-detail .product-detail-price del { background: transparent;  color: #333; font-size: 14px; }
@@ -49,7 +52,7 @@ NOTE: This file contains the styling for the Shop Pages. You can edit/add anythi
 .shop-single .product-detail .product-detail-social ul li a:hover { color: #84ba3f; }
 
 .shop-single .product-detail .product-detail-meta { border-top: 1px solid #e0e0e0; padding-top: 20px; }
-.shop-single .product-detail .product-detail-meta span { display: block; margin: 10px 0; }
+.shop-single .product-detail .product-detail-meta span { display: block; margin: 0px 0; }
 .shop-single .product-detail .product-detail-meta span a { padding-left: 5px; }
 
 .slider-slick { overflow: hidden; }
@@ -67,8 +70,25 @@ NOTE: This file contains the styling for the Shop Pages. You can edit/add anythi
 .product.left .product-image a {display: block; width: 100%;  height: 100%; } 
 .product.left  .product-description { padding-top: 0; display: table-cell; padding-bottom: 0; vertical-align: top; text-align: left; width: 74%; }
 .product.left .product-title a { margin-top: 0; }
+/*.product-des{text-align:center;}*/
 
 
+/* alignment */
+
+.proleftalign{
+	
+	text-align:left;
+}
+
+.resp{
+
+  width: 100%;
+}
+
+.prorightalign{
+	
+	text-align:right;
+}
 /*deal-banner*/
 .deal-banner{background:#f4f4f2;}
 .deal-banner img { width:100%; }
