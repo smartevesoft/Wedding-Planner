@@ -11,7 +11,7 @@ NOTE: This file contains nice select CSS.
 *************************/
 .nice-select { -webkit-tap-highlight-color: transparent; background-color: #f6f7f8; border-radius: 25px; border: solid 1px #b91740; box-sizing: border-box;
   clear: both; cursor: pointer; display: block; float: left; font-family: inherit; font-size: 14px; font-weight: normal; height: 50px; line-height: 47px;  outline: none;
-  padding-left: 30px; padding-right: 30px; position: relative; text-align: left !important; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;  -webkit-user-select: none;  -moz-user-select: none; -ms-user-select: none; user-select: none; white-space: nowrap; /*width: auto;*/ width:100%; }
+  padding-left: 20px; padding-right: 30px; position: relative; text-align: left !important; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;  -webkit-user-select: none;  -moz-user-select: none; -ms-user-select: none; user-select: none; white-space: nowrap; /*width: auto;*/ width:100%; }
 .nice-select:hover { border-color: #dd6a87; }
 .nice-select:active, .nice-select.open, .nice-select:focus { border-color: #88bfff; }
 .nice-select:after { border-bottom: 2px solid #90a1b5; border-right: 2px solid #90a1b5; content: ''; display: block; height: 5px; margin-top: -4px; pointer-events: none;

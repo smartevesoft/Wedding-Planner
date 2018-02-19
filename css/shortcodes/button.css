@@ -28,6 +28,7 @@ button { transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-
 .button.border.black { background: transparent; border: 2px solid #353535; color: #353535; }
 .button.border.black:hover, .button.border.black:focus { background: #353535; color: #ffffff; border-color: #353535; }
 .button.icon i { margin-left: 10px; }
+.button.icon2 i { margin-left: 0px; }
 /*button with icon*/
 .button.arrow { background: transparent; border: none; color: #84ba3f; padding: 0; font-weight: 600; }
 .button.arrow i { padding-left: 10px; font-size: 16px; }
